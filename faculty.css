@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: cyan;
+}
+
+
+.navbar{
+    height: 8vh;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-menu a{
+    color: black;
+    padding:5px 20px ;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu a:hover{
+    background-color: #e44436;
+    color:black;
+    border-radius: 30px;
+    
+}
+
+summary{
+    outline: none;
+    cursor: pointer;
+    transition:all 1s ease-in-out;
+    transform: translate(7px,2px);
+}
